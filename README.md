@@ -9,6 +9,9 @@ npm install express
 npm install --save dd-trace
 
 
+// This line must come before importing any instrumented module.
+const tracer = require('dd-trace').init()
+
 sudo lsof -i -P -n | grep 3000
 Ver el id de proceso
 Y matar el proceso
