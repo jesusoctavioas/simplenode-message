@@ -2,6 +2,7 @@
 siemple node app to show a message
 
 sudo apt install nodejs -y
+sudo apt install npm -y
 sudo npm install -y
 
 npm install express
